@@ -1,0 +1,12 @@
+{
+  "name": "typescript-react-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack ./webpac.config.js",
+    "start": "webpack-dev-server ./webpack.config.js --content-base ./public"
+  },
+  "author": "",
+  "license": "ISC"
+}
