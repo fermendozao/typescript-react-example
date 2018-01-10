@@ -1,4 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-ReactDOM.render(<div>Hello React</div>, document.getElementById('root'));
+type AppProps = { message: string };
+const App: React.SFC<AppProps> = ({ message }) => <div>{message}</div>;
+
+ReactDOM.render(<App message="Hellow world"/>, document.getElementById('root'));
